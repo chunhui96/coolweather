@@ -13,7 +13,7 @@ public class County extends DataSupport {
 
     private String countyName;//县名
 
-    private int countyCode;//县代号
+    private String weatherId;//县对应天气id
 
     private int cityId;//县所属城市id
 
@@ -33,12 +33,12 @@ public class County extends DataSupport {
         this.countyName = countyName;
     }
 
-    public int getCountyCode() {
-        return countyCode;
+    public String getWeatherId() {
+        return weatherId;
     }
 
-    public void setCountyCode(int countyCode) {
-        this.countyCode = countyCode;
+    public void setWeatherId(String weatherId) {
+        this.weatherId = weatherId;
     }
 
     public int getCityId() {
